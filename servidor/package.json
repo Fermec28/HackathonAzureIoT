@@ -1,0 +1,17 @@
+{
+  "name": "servidor",
+  "version": "1.0.0",
+  "description": "Servidor Web local para subir notificaciones al portal de azure.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Ferney Medina Serrato",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.1.7",
+    "azure-iot-device-mqtt": "^1.1.7",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}

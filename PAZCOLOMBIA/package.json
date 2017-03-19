@@ -1,0 +1,16 @@
+{
+  "name": "pazcolombia",
+  "version": "1.0.0",
+  "description": "monitoreo de variables asociadas al agro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Ferney Medina Serrato",
+  "license": "ISC",
+  "dependencies": {
+    "azure-event-hubs": "0.0.6",
+    "azure-iot-device": "^1.1.7",
+    "azure-iot-device-mqtt": "^1.1.7"
+  }
+}
