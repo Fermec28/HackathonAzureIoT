@@ -1,0 +1,42 @@
+N<!DOCTYPE html>
+<html>
+<head>
+	<title>Ayuda</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+    <div class="form-area">  
+        <form method="post" action="/ayuda">
+        <br style="clear:both">
+                    <h3 style=" text-align: center;">Formulario de Ayuda</h3>
+    				<div class="form-group">
+						<input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="Email" name="Email" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="Telefono" name="Telefono" placeholder="Telefono Number" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="Asunto" name="Asunto" placeholder="Asunto" required>
+					</div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="Mensaje" placeholder="Mensaje" maxlength="140" rows="7"></textarea>
+                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+                    </div>
+            
+        <button  class="btn btn-primary pull-right">Enviar</button>
+        </form>
+    </div>
+</div>
+<div class="col-md-4"></div>
+</div>
+</div>
+</body>
+</html>
